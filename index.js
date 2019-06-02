@@ -8,6 +8,12 @@ let numberedArray=[];
 }
 
 function summonCaptainPlanet(planeteerCalls){
+  let capitalArray= [];
+  for ( let i=0; i< planeteerCalls.length; i++){
+    let eachCall =
+    capitalArray.push(`${planeteerCalls[i]}!}`.toUpperCase());
+  }
+  return capitalArray;
 }
 
 function longPlaneteerCalls(words) {
